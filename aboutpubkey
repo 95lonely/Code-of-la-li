@@ -1,0 +1,17 @@
+ssh-keygen -C "邮箱名.com" -f ~/.ssh/邮箱名
+
+非缺省时（应该都是这种情况了）：使用ssh命令连接远程主机时需要使用参数-i <filename>指定公钥/私钥对。或者在配置文件~/.ssh/config中针对相应主机进行设定。
+
+~/.ssh/config配置文件中写入如下配置:
+Host github.com
+  User git
+  Hostname github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/邮箱名
+
+显示公钥：
+cat ~/.ssh/邮箱名.pub
+复制到剪贴板，贴到setting->new SSH就好咯～
+
+设置成功后，再用ssh命令访问GitHub，会显示一条认证成功信息并退出。在认证成功的信息中还会显示该公钥对应的用户名。
+$ ssh -T git@github.com
