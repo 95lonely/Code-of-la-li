@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
+//#include <stdio.h>
+//#include <string.h>
+//#include <stdlib.h>
+#include "includex.h"
 void COUNTING_SORT(int a[],int b[],int k){
 	int c[k];
 	int i,j;
