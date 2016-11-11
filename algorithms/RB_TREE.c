@@ -2,7 +2,7 @@
 
 #define RED		0
 #define BLACK	1
-#define NUM		10
+#define NUM		100
 
 typedef struct RB_TREENODE{
 	int key;

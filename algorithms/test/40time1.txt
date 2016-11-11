@@ -1,0 +1,4 @@
+number is 10, time is 13
+number is 20, time is 39
+number is 30, time is 52
+number is 40, time is 68

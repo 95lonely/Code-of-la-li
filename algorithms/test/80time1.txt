@@ -1,0 +1,8 @@
+number is 10, time is 16
+number is 20, time is 51
+number is 30, time is 66
+number is 40, time is 79
+number is 50, time is 91
+number is 60, time is 102
+number is 70, time is 115
+number is 80, time is 128

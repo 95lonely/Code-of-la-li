@@ -1,0 +1,2 @@
+Info of the n/4 less node:key = 28,color = 0(0为红，1为黑),size = 1,parent = 36,leftchlid = 0,rightchild = 0
+Info of the n/2 less node :key = 76,color = 1(0为红，1为黑),size = 3,parent = 40,leftchlid = 45,rightchild = 86

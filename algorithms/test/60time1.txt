@@ -1,0 +1,6 @@
+number is 10, time is 13
+number is 20, time is 40
+number is 30, time is 52
+number is 40, time is 161
+number is 50, time is 176
+number is 60, time is 187
